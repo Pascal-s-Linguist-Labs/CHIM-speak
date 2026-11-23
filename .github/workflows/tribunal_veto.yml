@@ -15,7 +15,7 @@ jobs:
           PR_ACTOR: ${{ github.actor }}
         run: |
           echo "Evaluating the identity of the petitioner..."
-          if [ "$PR_ACTOR" = "pascal_the_dog" ]; then
+          if [ "$PR_ACTOR" = "pascal-the-dog" ]; then
             echo "✨ Identity verified. Welcome back, Creator."
           else
             echo "❌ CRITICAL HERESY DETECTED: The user '$PR_ACTOR' is an imposter!"
